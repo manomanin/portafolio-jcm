@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Juan Cruz Manochi — Portafolio</title>
+<meta name="description" content="Juan Cruz Manochi — E-commerce, Growth Marketing y Automatización con IA." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<div class="rail-line" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a href="#top" class="brand">JCM</a>
+  <nav class="site-nav" aria-label="Navegación principal">
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <button class="btn btn--ghost btn--small" id="printBtn" type="button">Descargar CV</button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__tagpin" aria-hidden="true"></div>
+    <p class="eyebrow mono">FICHA · JCM-01</p>
+    <h1 class="hero__name">JUAN CRUZ<br />MANOCHI</h1>
+    <p class="hero__role mono" id="heroRole"></p>
+    <p class="hero__pitch" id="heroPitch"></p>
+    <div class="hero__actions">
+      <a href="#experiencia" class="btn btn--stamp">Ver experiencia</a>
+      <a href="#contacto" class="btn btn--outline">Escribime</a>
+    </div>
+    <ul class="interest-strip mono" id="interestStrip" aria-label="Intereses"></ul>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section class="section" id="sobre-mi">
+    <div class="section__head">
+      <p class="eyebrow mono">JCM-02 · SOBRE MÍ</p>
+      <h2>Quién soy</h2>
+    </div>
+    <div class="about">
+      <p class="about__bio" id="aboutBio"></p>
+      <p class="about__location mono" id="aboutLocation"></p>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="section" id="habilidades">
+    <div class="section__head">
+      <p class="eyebrow mono">JCM-03 · HABILIDADES</p>
+      <h2>Qué sé hacer</h2>
+    </div>
+    <div class="skills" id="skillsWrap"></div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section class="section" id="experiencia">
+    <div class="section__head">
+      <p class="eyebrow mono">JCM-04 · EXPERIENCIA</p>
+      <h2>Dónde trabajé</h2>
+    </div>
+    <div class="rack" id="experienceRack"></div>
+  </section>
+
+  <!-- EDUCACION -->
+  <section class="section" id="educacion">
+    <div class="section__head">
+      <p class="eyebrow mono">JCM-05 · EDUCACIÓN</p>
+      <h2>Dónde aprendí</h2>
+    </div>
+    <div class="education" id="educationList"></div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section" id="proyectos">
+    <div class="section__head">
+      <p class="eyebrow mono">JCM-06 · PROYECTOS</p>
+      <h2>En qué estoy trabajando</h2>
+    </div>
+    <div class="projects" id="projectsWrap"></div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section--contact" id="contacto">
+    <div class="section__head">
+      <p class="eyebrow mono">JCM-07 · CONTACTO</p>
+      <h2>Hablemos</h2>
+    </div>
+    <div class="contact-stamp">
+      <p class="contact-stamp__lead">¿Tenés un proyecto de e-commerce, marketing o automatización con IA? Escribime.</p>
+      <div class="contact-stamp__links" id="contactLinks"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p class="mono">JUAN CRUZ MANOCHI — HECHO A MANO, ARMADO CON IA</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
