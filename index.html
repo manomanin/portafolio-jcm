@@ -12,6 +12,8 @@
 </head>
 <body>
 
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
 <div class="rail-line" aria-hidden="true"></div>
 
 <header class="site-header">
@@ -31,7 +33,7 @@
   <!-- HERO -->
   <section class="hero" id="hero">
     <div class="hero__tagpin" aria-hidden="true"></div>
-    <p class="eyebrow mono">FICHA · JCM-01</p>
+    <p class="eyebrow hero__eyebrow mono">FICHA · JCM-01</p>
     <h1 class="hero__name">JUAN CRUZ<br />MANOCHI</h1>
     <p class="hero__role mono" id="heroRole"></p>
     <p class="hero__pitch" id="heroPitch"></p>
@@ -39,8 +41,11 @@
       <a href="#experiencia" class="btn btn--stamp">Ver experiencia</a>
       <a href="#contacto" class="btn btn--outline">Escribime</a>
     </div>
-    <ul class="interest-strip mono" id="interestStrip" aria-label="Intereses"></ul>
+    <div class="mono" id="interestWrap" aria-label="Intereses"></div>
   </section>
+
+  <!-- DATOS RAPIDOS -->
+  <section class="stats-strip" id="statsStrip" aria-label="Datos rápidos"></section>
 
   <!-- SOBRE MI -->
   <section class="section" id="sobre-mi">
