@@ -20,6 +20,20 @@ el diseño ni el código de las secciones.
 | Título/descripción para Google y redes | `data/seo.ts` |
 | Video del showreel | `data/showreel.ts` |
 
+## Assets — qué archivo va en cada sector
+
+| Sector | Qué preparar | Medida ideal | Dónde va el archivo |
+|---|---|---|---|
+| Sobre mí | Foto de perfil | Vertical 4:5, 1000×1250px+ | `public/profile/foto.jpg` |
+| Proyecto — imagen principal | 1 imagen destacada por proyecto | Horizontal 16:9, 1600×900px+ | `public/projects/<slug>/cover.jpg` |
+| Proyecto — galería | 4 a 8 imágenes (capturas, producto, piezas, ads) | La que le quede natural a cada una | `public/projects/<slug>/galeria-1.jpg`, `galeria-2.jpg`... |
+| Proyecto — video (opcional) | Ad, reel o demo corta | MP4, ~50MB máx | `public/projects/<slug>/video.mp4` |
+| Showreel (opcional) | Video general + portada | MP4 horizontal + imagen 16:9 | `public/showreel.mp4` + `public/showreel-poster.jpg` |
+| Favicon / OG image | Ya resueltos — avisar solo si se quieren cambiar | — | `public/favicon.svg`, `public/og-cover.png` |
+
+El resto (bio, skills, experiencia, servicios, resultados, testimonios, redes) es texto puro,
+sin archivos — se edita directo en el `.ts` que corresponda de la tabla de arriba.
+
 ## Sumar un proyecto nuevo
 
 1. Abrí `data/projects.ts`.
